@@ -1,4 +1,4 @@
-import "./UserCard.css";
+import "./MisComponentes.css";
 
 const UserCard = ({ name, email, age, online }) => {
   return (

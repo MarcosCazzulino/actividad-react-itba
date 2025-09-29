@@ -36,7 +36,7 @@ function App() {
         category="Accesorios"
       />
 
-      <h2>Tarjeta de Usuario</h2>
+      <h2>Tarjeta de Usuario (Propuesta 1)</h2>
 
       <UserCard
         name="Juan Pérez"
@@ -52,8 +52,6 @@ function App() {
       />
       <h2>Perfil de Usuario (Propuesta 5)</h2>
       <UserProfile user={usuario} showEmail={true} showPhone={false} layout="horizontal" />
-
-      <h2>Perfil de Usuario 2 (Propuesta 5)</h2>
       <UserProfile user={usuario} showEmail={true} showPhone={true} layout="vertical" />
 
     </div>

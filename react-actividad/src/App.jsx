@@ -1,4 +1,5 @@
 import Producto from "./components/Producto";
+import UserCard from "./components/UserCard";
 
 function App() {
   return (
@@ -23,6 +24,21 @@ function App() {
         price={20000}
         discount={10}
         category="Accesorios"
+      />
+
+      <h2>Tarjeta de Usuario</h2>
+
+      <UserCard
+        name="Juan Pérez"
+        email="juan@example.com"
+        age={30}
+        online={true}
+      />
+      <UserCard
+        name="Emma Gómez"
+        email="Emma@example.com"
+        age={21}
+        online={false}
       />
     </div>
   );

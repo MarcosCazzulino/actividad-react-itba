@@ -24,7 +24,7 @@ function App() {
       />
       <UserCard
         name="Emma Gómez"
-        email="Emma@example.com"
+        email="emma@example.com"
         age={21}
         online={false}
       />

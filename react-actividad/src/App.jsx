@@ -1,7 +1,17 @@
 import Producto from "./components/Producto";
 import UserCard from "./components/UserCard";
+import UserProfile from "./components/UserProfile";
+
 
 function App() {
+
+  const usuario = {
+      name: "Miguel Martinez",
+      age: 21,
+      email: "miguelmartinez@gmail.com",
+      phone: "+54 9 2915092832",
+    };
+
   return (
     <div>
       <h2>Lista de Productos (Propuesta 3)</h2>
@@ -40,7 +50,14 @@ function App() {
         age={21}
         online={false}
       />
+      <h2>Perfil de Usuario (Propuesta 5)</h2>
+      <UserProfile user={usuario} showEmail={true} showPhone={false} layout="horizontal" />
+
+      <h2>Perfil de Usuario 2 (Propuesta 5)</h2>
+      <UserProfile user={usuario} showEmail={true} showPhone={true} layout="vertical" />
+
     </div>
+    
   );
 }
 

@@ -14,6 +14,21 @@ function App() {
 
   return (
     <div>
+      <h2>Tarjeta de Usuario (Propuesta 1)</h2>
+
+      <UserCard
+        name="Juan Pérez"
+        email="juan@example.com"
+        age={30}
+        online={true}
+      />
+      <UserCard
+        name="Emma Gómez"
+        email="Emma@example.com"
+        age={21}
+        online={false}
+      />
+
       <h2>Lista de Productos (Propuesta 3)</h2>
 
       <Producto
@@ -35,21 +50,7 @@ function App() {
         discount={10}
         category="Accesorios"
       />
-
-      <h2>Tarjeta de Usuario (Propuesta 1)</h2>
-
-      <UserCard
-        name="Juan Pérez"
-        email="juan@example.com"
-        age={30}
-        online={true}
-      />
-      <UserCard
-        name="Emma Gómez"
-        email="Emma@example.com"
-        age={21}
-        online={false}
-      />
+      
       <h2>Perfil de Usuario (Propuesta 5)</h2>
       <UserProfile user={usuario} showEmail={true} showPhone={false} layout="horizontal" />
       <UserProfile user={usuario} showEmail={true} showPhone={true} layout="vertical" />

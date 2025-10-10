@@ -26,6 +26,8 @@
 }
 
 .task-list li {
+  display: flex;
+  flex-direction: row;
   padding: 8px;
   border-bottom: 1px solid #eee;
 }

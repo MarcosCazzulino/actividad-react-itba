@@ -1,4 +1,5 @@
 import Producto from "./components/Producto";
+import TaskList from "./components/TaskList";
 import UserCard from "./components/UserCard";
 import UserProfile from "./components/UserProfile";
 
@@ -55,8 +56,8 @@ function App() {
       <UserProfile user={usuario} showEmail={true} showPhone={false} layout="horizontal" />
       <UserProfile user={usuario} showEmail={true} showPhone={true} layout="vertical" />
 
+      <TaskList />
     </div>
-    
   );
 }
 
